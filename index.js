@@ -5,6 +5,7 @@
 //  res.send('Hello new World 2');
 //})
 //module.exports = app;
+
 // Importar el módulo os
 const os = require('os');
  
