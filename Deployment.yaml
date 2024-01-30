@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: knodeapp
-          image: abwiggin/appnode:<IMAGE_TAG>
+          image: fabwiggin/appnode:<IMAGE_TAG>
           ports:
             - containerPort: 3000
