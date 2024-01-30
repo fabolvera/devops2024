@@ -6,7 +6,7 @@ const hostname = os.hostname();
 
 const app = express();
 app.get('/', (req, res) => {
- res.send('Hostname:'+ hostname);
+ res.send('Hello World');
 })
 module.exports = app;
 
