@@ -69,7 +69,7 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - fab.molcajete.dev
+    - demo.fab.molcajete.dev
     secretName: letsencrypt-nginx
   rules:
   - host: demo.fab.molcajete.dev
