@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: Namespaces
+kind: Namespace
 metadata:
-  namespace: devops
+  name: devops
 ---
 apiVersion: apps/v1
 kind: Deployment
